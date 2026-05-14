@@ -22,7 +22,7 @@ from .prompts import (
 AI_MODEL = 'gemma4'
 OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 
-client = Client(host=OLLAMA_HOST)
+client = Client(host=f"{OLLAMA_HOST}:11434")
 
 
 # ============================
