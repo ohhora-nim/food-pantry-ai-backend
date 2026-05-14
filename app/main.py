@@ -55,7 +55,7 @@ def create_meal_plan(payload: schemas.MealPlanRequest):
     # payload.foods
     # contains foods from frontend
     # =============================================
-
+    
     ranked_foods = rank_foods(payload.foods)
     weekly_plan = generate_structured_meals(ranked_foods)
     analytics = generate_nutrition_analytics(weekly_plan)

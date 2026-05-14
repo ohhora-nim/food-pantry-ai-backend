@@ -12,10 +12,9 @@ class FoodItem(BaseModel):
     name: str
     quantity: int
     expiry_date: date
-    # category: str
-    # processing_level: str
-    # nutrition_tags: List[str]
-
+    category: Optional[str] = ""
+    processing_level: Optional[str] = ""
+    nutrition_tags: Optional[List[str]] = []
 
 # ==========================================
 # Meal Ingredient
