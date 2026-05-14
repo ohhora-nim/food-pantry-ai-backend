@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-WORKDIR /backend
+WORKDIR /food-pantry-ai-backend
 
 COPY requirements.txt .
 
