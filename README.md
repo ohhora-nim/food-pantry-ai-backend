@@ -12,6 +12,10 @@
 
 [food-pantry-ai-frontend](https://github.com/ohhora-nim/food-pantry-ai-frontend)
 
+### AI Model
+
+[Gemma 4:e2b](https://github.com/ohhora-nim/food-pantry-ai-backend/blob/main/ai/run_ollama.py)
+
 ### Install
 
 ```
