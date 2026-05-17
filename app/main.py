@@ -100,7 +100,6 @@ def generate_ai_meals(request: PantryRequest):
     
     try:
         enriched = get_enriched_pantry(request)
-
         if not enriched:
             return {"meals": []}
 
@@ -126,11 +125,8 @@ def generate_ai_meals(request: PantryRequest):
 def generate_ai_coaching(request: PantryRequest):
     try:
         enriched = get_enriched_pantry(request)
-
         nutrition = generate_nutrition_analytics(enriched)
-
         waste = generate_waste_forecast(enriched)
-
         coaching = generate_coaching(enriched, nutrition, waste)
 
         return {
@@ -153,13 +149,9 @@ def generate_ai_coaching(request: PantryRequest):
 def generate_ai_summary(request: PantryRequest):
     try:
         enriched = get_enriched_pantry(request)
-
         nutrition = generate_nutrition_analytics(enriched)
-
         waste = generate_waste_forecast(enriched)
-
         recommendations = generate_recommendations(enriched)
-
         summary = generate_summary(nutrition, waste, recommendations)
 
         return {
@@ -202,7 +194,6 @@ def generate_ai_explanations(request: PantryRequest):
 
 def get_enriched_pantry(request: PantryRequest):
     pantry_foods = normalize_pantry_foods(request.pantry_foods)
-
     enriched = enrich_pantry_foods(pantry_foods)
 
     return enriched

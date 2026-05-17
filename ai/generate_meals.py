@@ -143,34 +143,12 @@ def normalize_meals(meals):
 def generate_fallback_meals():
     return [
         {
-            "day": "Monday",
-            "meal": "Dinner",
-            "name": "Vegetable Rice Bowl",
-            "ingredients": [
-                "rice",
-                "vegetables"
-            ],
-            "steps": [
-                "Cook rice.",
-                "Cook vegetables.",
-                "Combine together."
-            ],
-            "health_reason": "Balanced healthy meal.",
-            "waste_reason": "Uses pantry vegetables."
-        },
-        {
-            "day": "Tuesday",
-            "meal": "Lunch",
-            "name": "Egg Spinach Scramble",
-            "ingredients": [
-                "egg",
-                "spinach"
-            ],
-            "steps": [
-                "Cook eggs.",
-                "Add spinach."
-            ],
-            "health_reason": "High protein meal.",
-            "waste_reason": "Uses fresh spinach."
+            "day": "",
+            "meal": "",
+            "name": "",
+            "ingredients": [],
+            "steps": [],
+            "health_reason": "",
+            "waste_reason": ""
         }
     ]

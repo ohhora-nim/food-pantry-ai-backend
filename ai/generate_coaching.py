@@ -75,6 +75,19 @@ def generate_coaching(pantry_foods, nutrition_analytics, waste_forecast):
         
         content = run_ai(prompt, options)
         coaching = json.loads(content)
+        
+        if not coaching:
+            return {
+                "summary": generate_fallback_coaching(nutrition_analytics, waste_forecast),
+                "strengths": [],
+                "risks": [],
+                "recommendations": [],
+                "nutrition_focus": "",
+                "fitness_tip": "",
+                "hydration_tip": "",
+                "meal_balance_feedback": ""
+            }
+        
 
         return {
             "summary": coaching.get("summary", ""),
@@ -92,21 +105,13 @@ def generate_coaching(pantry_foods, nutrition_analytics, waste_forecast):
 
         return {
             "summary": generate_fallback_coaching(nutrition_analytics, waste_forecast),
-            "strengths": [
-                "Pantry tracking supports better food decisions."
-            ],
-            "risks": [
-                "Some foods may become waste if not planned."
-            ],
-            "recommendations": [
-                "Use foods with high expiry priority first.",
-                "Build meals around fresh whole foods.",
-                "Add protein and fiber-rich foods when possible."
-            ],
-            "nutrition_focus": "Prioritize fresh foods, protein, and fiber.",
-            "fitness_tip": "Add a short daily walk after meals when possible.",
-            "hydration_tip": "Drink water regularly throughout the day.",
-            "meal_balance_feedback": "Aim for meals with protein, vegetables, and fiber."
+            "strengths": [],
+            "risks": [],
+            "recommendations": [],
+            "nutrition_focus": "",
+            "fitness_tip": "",
+            "hydration_tip": "",
+            "meal_balance_feedback": ""
         }
     
     

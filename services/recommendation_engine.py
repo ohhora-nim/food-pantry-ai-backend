@@ -168,7 +168,7 @@ def generate_recommendations(pantry_foods, limit=DEFAULT_LIMIT):
     # Enrich pantry
     # =====================================
 
-    # pantry_foods = enrich_pantry_foods(pantry_foods)
+    pantry_foods = enrich_pantry_foods(pantry_foods)
 
     # =====================================
     # User preference analysis
