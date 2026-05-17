@@ -38,12 +38,12 @@ Food Pantry AI helps users understand what foods they have, what should be used 
 
 **Key Features**
 
-- Smart Pantry Management: Tracks pantry foods, expiry dates, quantities, nutrition tags, processing level, priority score, and waste risk.
-- AI Meal Planning: Generates practical meal ideas using available pantry foods, prioritizing foods that are close to expiry.
-- Nutrition Analytics: Analyzes food quality, fresh food ratio, processing level, nutrition tags, and pantry health score.
-- Food Waste Forecasting: Identifies foods at risk of being wasted and provides actionable recommendations to use them before expiry.
-- Smart Food Recommendations: Suggests healthier, budget-friendly, and versatile foods to improve pantry balance.
-- AI Explanations and Coaching: Uses Gemma AI to provide human-like explanations, personalized health coaching, and pantry summaries only when users request them.
+- **Smart Pantry Management:** Tracks pantry foods, expiry dates, quantities, nutrition tags, processing level, priority score, and waste risk.
+- **AI Meal Planning:** Generates practical meal ideas using available pantry foods, prioritizing foods that are close to expiry.
+- **Nutrition Analytics:** Analyzes food quality, fresh food ratio, processing level, nutrition tags, and pantry health score.
+- **Food Waste Forecasting:** Identifies foods at risk of being wasted and provides actionable recommendations to use them before expiry.
+- **Smart Food Recommendations:** Suggests healthier, budget-friendly, and versatile foods to improve pantry balance.
+- **AI Explanations and Coaching:** Uses Gemma AI to provide human-like explanations, personalized health coaching, and pantry summaries only when users request them.
 
 **Why It Matters**
 
