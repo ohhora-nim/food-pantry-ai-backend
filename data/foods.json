@@ -1,0 +1,46 @@
+[
+  {
+    "name": "spinach",
+    "category": "vegetable",
+    "processing_level": "fresh",
+    "nutrition_tags": [
+      "fiber",
+      "vitamin",
+      "iron"
+    ],
+    "nutrition_score": 9,
+    "budget_score": 8,
+    "versatility_score": 9,
+    "waste_risk": 7,
+    "shelf_life_days": 5
+  },
+  {
+    "name": "egg",
+    "category": "protein",
+    "processing_level": "fresh",
+    "nutrition_tags": [
+      "protein",
+      "fat",
+      "vitamin"
+    ],
+    "nutrition_score": 9,
+    "budget_score": 9,
+    "versatility_score": 10,
+    "waste_risk": 3,
+    "shelf_life_days": 21
+  },
+    {
+    "name": "salmon",
+    "category": "protein",
+    "processing_level": "fresh",
+    "nutrition_tags": [
+      "protein",
+      "soduim"
+    ],
+    "nutrition_score": 8,
+    "budget_score": 10,
+    "versatility_score": 10,
+    "waste_risk": 4,
+    "shelf_life_days": 11
+  }
+]

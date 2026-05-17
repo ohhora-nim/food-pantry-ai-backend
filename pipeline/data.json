@@ -1,0 +1,810 @@
+{
+  "foods": [
+    {
+      "name": "spinach",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 2.9,
+        "fiber_g": 2.2,
+        "sodium_mg": 79,
+        "sugar_g": 0.4
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 120,
+      "estimated_cost_per_lb_usd": 2.49
+    },
+    {
+      "name": "broccoli",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 2.8,
+        "fiber_g": 2.6,
+        "sodium_mg": 33,
+        "sugar_g": 1.7
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 95,
+      "estimated_cost_per_lb_usd": 1.98
+    },
+    {
+      "name": "onion",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.1,
+        "fiber_g": 1.7,
+        "sodium_mg": 4,
+        "sugar_g": 4.2
+      },
+      "shelf_life_days": 30,
+      "recipe_frequency_per_1000": 580,
+      "estimated_cost_per_lb_usd": 1.05
+    },
+    {
+      "name": "tomato",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 0.9,
+        "fiber_g": 1.2,
+        "sodium_mg": 5,
+        "sugar_g": 2.6
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 365,
+      "estimated_cost_per_lb_usd": 1.89
+    },
+    {
+      "name": "mushroom",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 3.1,
+        "fiber_g": 1.0,
+        "sodium_mg": 5,
+        "sugar_g": 2.0
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 140,
+      "estimated_cost_per_lb_usd": 3.99
+    },
+    {
+      "name": "kale",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 4.3,
+        "fiber_g": 3.6,
+        "sodium_mg": 38,
+        "sugar_g": 2.2
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 48,
+      "estimated_cost_per_lb_usd": 2.75
+    },
+    {
+      "name": "carrot",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 0.9,
+        "fiber_g": 2.8,
+        "sodium_mg": 69,
+        "sugar_g": 4.7
+      },
+      "shelf_life_days": 28,
+      "recipe_frequency_per_1000": 210,
+      "estimated_cost_per_lb_usd": 0.99
+    },
+    {
+      "name": "banana",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.1,
+        "fiber_g": 2.6,
+        "sodium_mg": 1,
+        "sugar_g": 12.2
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 95,
+      "estimated_cost_per_lb_usd": 0.62
+    },
+    {
+      "name": "apple",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.3,
+        "fiber_g": 2.4,
+        "sodium_mg": 1,
+        "sugar_g": 10.4
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 85,
+      "estimated_cost_per_lb_usd": 1.62
+    },
+    {
+      "name": "blueberry",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.7,
+        "fiber_g": 2.4,
+        "sodium_mg": 1,
+        "sugar_g": 10.0
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 65,
+      "estimated_cost_per_lb_usd": 4.50
+    },
+    {
+      "name": "orange",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.9,
+        "fiber_g": 2.4,
+        "sodium_mg": 0,
+        "sugar_g": 9.4
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 75,
+      "estimated_cost_per_lb_usd": 1.20
+    },
+    {
+      "name": "egg",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 12.6,
+        "fiber_g": 0.0,
+        "sodium_mg": 124,
+        "sugar_g": 0.4
+      },
+      "shelf_life_days": 35,
+      "recipe_frequency_per_1000": 450,
+      "estimated_cost_per_lb_usd": 1.89
+    },
+    {
+      "name": "chicken breast",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 31.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 74,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 2,
+      "recipe_frequency_per_1000": 280,
+      "estimated_cost_per_lb_usd": 4.20
+    },
+    {
+      "name": "salmon",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 20.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 59,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 2,
+      "recipe_frequency_per_1000": 55,
+      "estimated_cost_per_lb_usd": 8.99
+    },
+    {
+      "name": "tofu",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 8.0,
+        "fiber_g": 0.9,
+        "sodium_mg": 7,
+        "sugar_g": 0.5
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 40,
+      "estimated_cost_per_lb_usd": 2.25
+    },
+    {
+      "name": "tuna",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 26.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 338,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 1095,
+      "recipe_frequency_per_1000": 60,
+      "estimated_cost_per_lb_usd": 3.50
+    },
+    {
+      "name": "oats",
+      "category": "grains",
+      "nutrition": {
+        "protein_g": 16.9,
+        "fiber_g": 10.6,
+        "sodium_mg": 2,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 365,
+      "recipe_frequency_per_1000": 115,
+      "estimated_cost_per_lb_usd": 1.15
+    },
+    {
+      "name": "rice",
+      "category": "grains",
+      "nutrition": {
+        "protein_g": 7.5,
+        "fiber_g": 3.5,
+        "sodium_mg": 5,
+        "sugar_g": 0.7
+      },
+      "shelf_life_days": 180,
+      "recipe_frequency_per_1000": 190,
+      "estimated_cost_per_lb_usd": 0.98
+    },
+    {
+      "name": "quinoa",
+      "category": "grains",
+      "nutrition": {
+        "protein_g": 14.1,
+        "fiber_g": 7.0,
+        "sodium_mg": 5,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 365,
+      "recipe_frequency_per_1000": 35,
+      "estimated_cost_per_lb_usd": 3.40
+    },
+    {
+      "name": "greek yogurt",
+      "category": "dairy",
+      "nutrition": {
+        "protein_g": 10.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 36,
+        "sugar_g": 3.6
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 70,
+      "estimated_cost_per_lb_usd": 2.50
+    },
+    {
+      "name": "milk",
+      "category": "dairy",
+      "nutrition": {
+        "protein_g": 3.2,
+        "fiber_g": 0.0,
+        "sodium_mg": 44,
+        "sugar_g": 4.8
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 310,
+      "estimated_cost_per_lb_usd": 0.65
+    },
+    {
+      "name": "olive oil",
+      "category": "pantry staples",
+      "nutrition": {
+        "protein_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 2,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 730,
+      "recipe_frequency_per_1000": 520,
+      "estimated_cost_per_lb_usd": 6.50
+    },
+    {
+      "name": "garlic",
+      "category": "pantry staples",
+      "nutrition": {
+        "protein_g": 6.4,
+        "fiber_g": 2.1,
+        "sodium_mg": 17,
+        "sugar_g": 1.0
+      },
+      "shelf_life_days": 150,
+      "recipe_frequency_per_1000": 640,
+      "estimated_cost_per_lb_usd": 3.20
+    },
+    {
+      "name": "beans",
+      "category": "pantry staples",
+      "nutrition": {
+        "protein_g": 21.0,
+        "fiber_g": 15.5,
+        "sodium_mg": 12,
+        "sugar_g": 2.1
+      },
+      "shelf_life_days": 365,
+      "recipe_frequency_per_1000": 130,
+      "estimated_cost_per_lb_usd": 1.10
+    },
+    {
+      "name": "lentils",
+      "category": "pantry staples",
+      "nutrition": {
+        "protein_g": 24.0,
+        "fiber_g": 11.0,
+        "sodium_mg": 6,
+        "sugar_g": 2.0
+      },
+      "shelf_life_days": 365,
+      "recipe_frequency_per_1000": 45,
+      "estimated_cost_per_lb_usd": 1.35
+    },
+    {
+      "name": "cabbage",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.3,
+        "fiber_g": 2.5,
+        "sodium_mg": 18,
+        "sugar_g": 3.2
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 75,
+      "estimated_cost_per_lb_usd": 0.79
+    },
+    {
+      "name": "brussels sprout",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 3.4,
+        "fiber_g": 3.8,
+        "sodium_mg": 25,
+        "sugar_g": 2.2
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 42,
+      "estimated_cost_per_lb_usd": 2.99
+    },
+    {
+      "name": "bok choy",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.5,
+        "fiber_g": 1.0,
+        "sodium_mg": 65,
+        "sugar_g": 1.2
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 38,
+      "estimated_cost_per_lb_usd": 1.89
+    },
+    {
+      "name": "garlic",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 6.4,
+        "fiber_g": 2.1,
+        "sodium_mg": 17,
+        "sugar_g": 1.0
+      },
+      "shelf_life_days": 150,
+      "recipe_frequency_per_1000": 640,
+      "estimated_cost_per_lb_usd": 3.20
+    },
+    {
+      "name": "leeks",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.5,
+        "fiber_g": 1.8,
+        "sodium_mg": 20,
+        "sugar_g": 3.9
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 55,
+      "estimated_cost_per_lb_usd": 2.49
+    },
+    {
+      "name": "potato",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 2.0,
+        "fiber_g": 2.2,
+        "sodium_mg": 6,
+        "sugar_g": 0.8
+      },
+      "shelf_life_days": 60,
+      "recipe_frequency_per_1000": 340,
+      "estimated_cost_per_lb_usd": 0.85
+    },
+    {
+      "name": "sweet potato",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.6,
+        "fiber_g": 3.0,
+        "sodium_mg": 55,
+        "sugar_g": 4.2
+      },
+      "shelf_life_days": 28,
+      "recipe_frequency_per_1000": 115,
+      "estimated_cost_per_lb_usd": 1.25
+    },
+    {
+      "name": "beetroot",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.6,
+        "fiber_g": 2.8,
+        "sodium_mg": 78,
+        "sugar_g": 6.8
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 48,
+      "estimated_cost_per_lb_usd": 1.49
+    },
+    {
+      "name": "radish",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 0.7,
+        "fiber_g": 1.6,
+        "sodium_mg": 39,
+        "sugar_g": 1.9
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 32,
+      "estimated_cost_per_lb_usd": 1.10
+    },
+    {
+      "name": "bell pepper",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.0,
+        "fiber_g": 2.1,
+        "sodium_mg": 4,
+        "sugar_g": 4.2
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 260,
+      "estimated_cost_per_lb_usd": 2.29
+    },
+    {
+      "name": "zucchini",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.2,
+        "fiber_g": 1.0,
+        "sodium_mg": 8,
+        "sugar_g": 2.5
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 135,
+      "estimated_cost_per_lb_usd": 1.60
+    },
+    {
+      "name": "eggplant",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 1.0,
+        "fiber_g": 3.0,
+        "sodium_mg": 2,
+        "sugar_g": 3.5
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 78,
+      "estimated_cost_per_lb_usd": 1.99
+    },
+    {
+      "name": "green pea",
+      "category": "vegetable",
+      "nutrition": {
+        "protein_g": 5.4,
+        "fiber_g": 5.1,
+        "sodium_mg": 5,
+        "sugar_g": 5.7
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 105,
+      "estimated_cost_per_lb_usd": 1.45
+    },
+    {
+      "name": "lemon",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.1,
+        "fiber_g": 2.8,
+        "sodium_mg": 2,
+        "sugar_g": 2.5
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 380,
+      "estimated_cost_per_lb_usd": 1.99
+    },
+    {
+      "name": "lime",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.7,
+        "fiber_g": 2.8,
+        "sodium_mg": 2,
+        "sugar_g": 1.7
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 290,
+      "estimated_cost_per_lb_usd": 2.25
+    },
+    {
+      "name": "grapefruit",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.8,
+        "fiber_g": 1.6,
+        "sodium_mg": 0,
+        "sugar_g": 7.0
+      },
+      "shelf_life_days": 21,
+      "recipe_frequency_per_1000": 35,
+      "estimated_cost_per_lb_usd": 1.49
+    },
+    {
+      "name": "pear",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.4,
+        "fiber_g": 3.1,
+        "sodium_mg": 1,
+        "sugar_g": 9.8
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 62,
+      "estimated_cost_per_lb_usd": 1.85
+    },
+    {
+      "name": "peach",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.9,
+        "fiber_g": 1.5,
+        "sodium_mg": 0,
+        "sugar_g": 8.4
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 78,
+      "estimated_cost_per_lb_usd": 2.49
+    },
+    {
+      "name": "plum",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.7,
+        "fiber_g": 1.4,
+        "sodium_mg": 0,
+        "sugar_g": 9.9
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 40,
+      "estimated_cost_per_lb_usd": 2.10
+    },
+    {
+      "name": "cherry",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.1,
+        "fiber_g": 2.1,
+        "sodium_mg": 0,
+        "sugar_g": 12.8
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 58,
+      "estimated_cost_per_lb_usd": 4.99
+    },
+    {
+      "name": "strawberry",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.7,
+        "fiber_g": 2.0,
+        "sodium_mg": 1,
+        "sugar_g": 4.9
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 145,
+      "estimated_cost_per_lb_usd": 3.50
+    },
+    {
+      "name": "raspberry",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.2,
+        "fiber_g": 6.5,
+        "sodium_mg": 1,
+        "sugar_g": 4.4
+      },
+      "shelf_life_days": 3,
+      "recipe_frequency_per_1000": 68,
+      "estimated_cost_per_lb_usd": 5.99
+    },
+    {
+      "name": "blackberry",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.4,
+        "fiber_g": 5.3,
+        "sodium_mg": 1,
+        "sugar_g": 4.9
+      },
+      "shelf_life_days": 3,
+      "recipe_frequency_per_1000": 52,
+      "estimated_cost_per_lb_usd": 5.50
+    },
+    {
+      "name": "mango",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.8,
+        "fiber_g": 1.6,
+        "sodium_mg": 1,
+        "sugar_g": 13.7
+      },
+      "shelf_life_days": 7,
+      "recipe_frequency_per_1000": 90,
+      "estimated_cost_per_lb_usd": 2.20
+    },
+    {
+      "name": "pineapple",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.5,
+        "fiber_g": 1.4,
+        "sodium_mg": 1,
+        "sugar_g": 9.9
+      },
+      "shelf_life_days": 6,
+      "recipe_frequency_per_1000": 112,
+      "estimated_cost_per_lb_usd": 1.65
+    },
+    {
+      "name": "avocado",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 2.0,
+        "fiber_g": 6.7,
+        "sodium_mg": 7,
+        "sugar_g": 0.7
+      },
+      "shelf_life_days": 5,
+      "recipe_frequency_per_1000": 185,
+      "estimated_cost_per_lb_usd": 2.80
+    },
+    {
+      "name": "pomegranate",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 1.7,
+        "fiber_g": 4.0,
+        "sodium_mg": 3,
+        "sugar_g": 13.7
+      },
+      "shelf_life_days": 30,
+      "recipe_frequency_per_1000": 32,
+      "estimated_cost_per_lb_usd": 3.99
+    },
+    {
+      "name": "melon",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.5,
+        "fiber_g": 0.8,
+        "sodium_mg": 9,
+        "sugar_g": 8.1
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 45,
+      "estimated_cost_per_lb_usd": 0.95
+    },
+    {
+      "name": "cantaloupe",
+      "category": "fruit",
+      "nutrition": {
+        "protein_g": 0.8,
+        "fiber_g": 0.9,
+        "sodium_mg": 16,
+        "sugar_g": 7.9
+      },
+      "shelf_life_days": 10,
+      "recipe_frequency_per_1000": 55,
+      "estimated_cost_per_lb_usd": 1.10
+    },
+    {
+      "name": "turkey breast",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 30.1,
+        "fiber_g": 0.0,
+        "sodium_mg": 68,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 2,
+      "recipe_frequency_per_1000": 95,
+      "estimated_cost_per_lb_usd": 4.80
+    },
+    {
+      "name": "lean beef",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 26.1,
+        "fiber_g": 0.0,
+        "sodium_mg": 57,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 4,
+      "recipe_frequency_per_1000": 210,
+      "estimated_cost_per_lb_usd": 6.99
+    },
+    {
+      "name": "pork tenderloin",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 26.2,
+        "fiber_g": 0.0,
+        "sodium_mg": 48,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 4,
+      "recipe_frequency_per_1000": 85,
+      "estimated_cost_per_lb_usd": 4.49
+    },
+    {
+      "name": "lamb",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 24.5,
+        "fiber_g": 0.0,
+        "sodium_mg": 65,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 4,
+      "recipe_frequency_per_1000": 60,
+      "estimated_cost_per_lb_usd": 8.50
+    },
+    {
+      "name": "shrimp",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 24.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 119,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 2,
+      "recipe_frequency_per_1000": 130,
+      "estimated_cost_per_lb_usd": 7.99
+    },
+    {
+      "name": "cod",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 20.4,
+        "fiber_g": 0.0,
+        "sodium_mg": 78,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 2,
+      "recipe_frequency_per_1000": 55,
+      "estimated_cost_per_lb_usd": 8.25
+    },
+    {
+      "name": "sardine",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 24.6,
+        "fiber_g": 0.0,
+        "sodium_mg": 305,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 1095,
+      "recipe_frequency_per_1000": 42,
+      "estimated_cost_per_lb_usd": 4.10
+    },
+    {
+      "name": "tempeh",
+      "category": "protein",
+      "nutrition": {
+        "protein_g": 18.5,
+        "fiber_g": 9.0,
+        "sodium_mg": 9,
+        "sugar_g": 0.0
+      },
+      "shelf_life_days": 14,
+      "recipe_frequency_per_1000": 35,
+      "estimated_cost_per_lb_usd": 3.75
+    }
+  ]
+}
