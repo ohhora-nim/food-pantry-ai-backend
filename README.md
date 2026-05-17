@@ -6,9 +6,9 @@
 
 ### Website URL
 
-[https://food-pantry-ai-frontend.vercel.app/recommendations](https://food-pantry-ai-frontend.vercel.app/recommendations)
+[https://food-pantry-ai-frontend.vercel.app](https://food-pantry-ai-frontend.vercel.app)
 
-### frontend
+### Frontend
 
 [food-pantry-ai-frontend](https://github.com/ohhora-nim/food-pantry-ai-frontend)
 
