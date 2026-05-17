@@ -1,6 +1,16 @@
-# Gemma 4 Good Hackathon
+# The Gemma 4 Good Hackathon
 
-## - Food Pantry AI - Backend
+## Food Pantry AI - Backend
+
+### Developer: Ho Seok (Brandon) Oh (Username: ohhora-nim)
+
+### Website URL
+
+[https://food-pantry-ai-frontend.vercel.app/recommendations](https://food-pantry-ai-frontend.vercel.app/recommendations)
+
+### frontend
+
+[food-pantry-ai-frontend](https://github.com/ohhora-nim/food-pantry-ai-frontend)
 
 ### Install
 
