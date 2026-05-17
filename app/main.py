@@ -97,7 +97,7 @@ def get_dashboard(request: PantryRequest):
 
 @app.post("/ai/meals")
 def generate_ai_meals(request: PantryRequest):
-    print('generate_ai_meals')
+    
     try:
         enriched = get_enriched_pantry(request)
 
@@ -182,11 +182,9 @@ def generate_ai_summary(request: PantryRequest):
 def generate_ai_explanations(request: PantryRequest):
     try:
         enriched = get_enriched_pantry(request)
-
         recommendations = generate_recommendations(enriched)
-
         explained_recommendations = generate_explanations(recommendations)
-        print(explained_recommendations)
+    
         return {
             "recommendations": explained_recommendations
         }

@@ -14,23 +14,36 @@ from .run_ollama import run_ai, clean_text
 def build_coaching_prompt(context):
     return f"""
 Task:
-Give healthy pantry coaching.
+Create AI health coaching from pantry data.
 
 Data:
-{json.dumps(context)}
+{json.dumps(context, separators=(",", ":"))}
+
+Return JSON only.
+
+Format:
+{{
+  "summary":"1-2 sentence overview.",
+  "strengths":["short strength","short strength"],
+  "risks":["short risk"],
+  "recommendations":["short action","short action","short action"],
+  "nutrition_focus":"one key nutrition focus",
+  "fitness_tip":"short realistic fitness tip",
+  "hydration_tip":"short hydration tip",
+  "meal_balance_feedback":"short meal balance feedback"
+}}
 
 Rules:
-- supportive
-- practical
-- human-like
-- concise
-- positive tone
-- mention healthy eating
-- mention waste reduction
-- mention budget awareness
-- max 4 sentences
-
-Return plain text only.
+- Keep all text concise
+- Be supportive and practical
+- Mention healthy eating
+- Mention food waste reduction
+- Fitness tip must be safe and realistic
+- No markdown
+- No explanation outside JSON
+- Max 3 strengths
+- Max 3 risks
+- Max 4 recommendations
 """
 
 
@@ -57,25 +70,46 @@ def generate_coaching(pantry_foods, nutrition_analytics, waste_forecast):
             "temperature": 0.5,
             "top_p": 0.8,
             "top_k": 20,
-            "max_output_tokens": 160
+            "max_output_tokens": 350
         }
         
         content = run_ai(prompt, options)
-        coaching = clean_text(content)
+        coaching = json.loads(content)
 
-        # =================================
-        # Validation
-        # =================================
-
-        if not coaching:
-            return generate_fallback_coaching(nutrition_analytics, waste_forecast)
-
-        return coaching
+        return {
+            "summary": coaching.get("summary", ""),
+            "strengths": coaching.get("strengths", []),
+            "risks": coaching.get("risks", []),
+            "recommendations": coaching.get("recommendations", []),
+            "nutrition_focus": coaching.get("nutrition_focus", ""),
+            "fitness_tip": coaching.get("fitness_tip", ""),
+            "hydration_tip": coaching.get("hydration_tip", ""),
+            "meal_balance_feedback": coaching.get("meal_balance_feedback", "")
+        }
 
     except Exception as e:
         print("Coaching generation error:", e)
 
-        return generate_fallback_coaching(nutrition_analytics, waste_forecast)
+        return {
+            "summary": generate_fallback_coaching(nutrition_analytics, waste_forecast),
+            "strengths": [
+                "Pantry tracking supports better food decisions."
+            ],
+            "risks": [
+                "Some foods may become waste if not planned."
+            ],
+            "recommendations": [
+                "Use foods with high expiry priority first.",
+                "Build meals around fresh whole foods.",
+                "Add protein and fiber-rich foods when possible."
+            ],
+            "nutrition_focus": "Prioritize fresh foods, protein, and fiber.",
+            "fitness_tip": "Add a short daily walk after meals when possible.",
+            "hydration_tip": "Drink water regularly throughout the day.",
+            "meal_balance_feedback": "Aim for meals with protein, vegetables, and fiber."
+        }
+    
+    
 
 
 
