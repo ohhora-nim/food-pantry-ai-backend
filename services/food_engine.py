@@ -254,34 +254,22 @@ def generate_benefits(food):
     tags = food.get("nutrition_tags", [])
 
     if "protein" in tags:
-        benefits.append(
-            "supports muscle health"
-        )
+        benefits.append("supports muscle health")
 
     if "fiber" in tags:
-        benefits.append(
-            "supports digestion"
-        )
+        benefits.append("supports digestion")
 
     if "vitamin" in tags:
-        benefits.append(
-            "supports immunity"
-        )
+        benefits.append("supports immunity")
 
     if "iron" in tags:
-        benefits.append(
-            "supports energy"
-        )
+        benefits.append("supports energy")
 
     if "healthy_fat" in tags:
-        benefits.append(
-            "supports heart health"
-        )
+        benefits.append("supports heart health")
 
     if not benefits:
-        benefits.append(
-            "supports healthy eating"
-        )
+        benefits.append("supports healthy eating")
 
     return benefits[:3]
 

@@ -1,721 +1,18 @@
 [
   {
-    "name": "cabbage",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 25,
-      "protein": 1.3,
-      "fat": 0.1,
-      "carbohydrates": 5.8,
-      "fiber": 2.5,
-      "sugar": 3.2,
-      "sodium": 18,
-      "potassium": 170,
-      "vitamin": 98,
-      "calcium": 40
-    },
-    "shelf_life_days": 21,
-    "recipe_frequency_per_1000": 75,
-    "estimated_cost_per_lb_usd": 0.79
-  },
-  {
-    "name": "brussels sprout",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 43,
-      "protein": 3.4,
-      "fat": 0.3,
-      "carbohydrates": 9.0,
-      "fiber": 3.8,
-      "sugar": 2.2,
-      "sodium": 25,
-      "potassium": 389,
-      "vitamin": 754,
-      "calcium": 42
-    },
-    "shelf_life_days": 10,
-    "recipe_frequency_per_1000": 42,
-    "estimated_cost_per_lb_usd": 2.99
-  },
-  {
-    "name": "bok choy",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 13,
-      "protein": 1.5,
-      "fat": 0.2,
-      "carbohydrates": 2.2,
-      "fiber": 1.0,
-      "sugar": 1.2,
-      "sodium": 65,
-      "potassium": 252,
-      "vitamin": 45.0,
-      "calcium": 105
-    },
-    "shelf_life_days": 5,
-    "recipe_frequency_per_1000": 38,
-    "estimated_cost_per_lb_usd": 1.89
-  },
-  {
-    "name": "garlic",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 149,
-      "protein": 6.4,
-      "fat": 0.5,
-      "carbohydrates": 33.1,
-      "fiber": 2.1,
-      "sugar": 1.0,
-      "sodium": 17,
-      "potassium": 401,
-      "vitamin": 9,
-      "calcium": 181
-    },
-    "shelf_life_days": 150,
-    "recipe_frequency_per_1000": 640,
-    "estimated_cost_per_lb_usd": 3.2
-  },
-  {
-    "name": "leek",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 61,
-      "protein": 1.5,
-      "fat": 0.3,
-      "carbohydrates": 14.2,
-      "fiber": 1.8,
-      "sugar": 3.9,
-      "sodium": 20,
-      "potassium": 180,
-      "vitamin": 12.0,
-      "calcium": 59
-    },
-    "shelf_life_days": 14,
-    "recipe_frequency_per_1000": 55,
-    "estimated_cost_per_lb_usd": 2.49
-  },
-  {
-    "name": "potato",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 77,
-      "protein": 2.0,
-      "fat": 0.1,
-      "carbohydrates": 17.5,
-      "fiber": 2.2,
-      "sugar": 0.8,
-      "sodium": 6,
-      "potassium": 421,
-      "vitamin": 19.7,
-      "calcium": 12
-    },
-    "shelf_life_days": 60,
-    "recipe_frequency_per_1000": 340,
-    "estimated_cost_per_lb_usd": 0.85
-  },
-  {
-    "name": "sweet potato",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 86,
-      "protein": 1.6,
-      "fat": 0.1,
-      "carbohydrates": 20.1,
-      "fiber": 3.0,
-      "sugar": 4.2,
-      "sodium": 55,
-      "potassium": 337,
-      "vitamin": 2.4,
-      "calcium": 30
-    },
-    "shelf_life_days": 28,
-    "recipe_frequency_per_1000": 115,
-    "estimated_cost_per_lb_usd": 1.25
-  },
-  {
-    "name": "beetroot",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 43,
-      "protein": 1.6,
-      "fat": 0.2,
-      "carbohydrates": 9.6,
-      "fiber": 2.8,
-      "sugar": 6.8,
-      "sodium": 78,
-      "potassium": 325,
-      "vitamin": 4.9,
-      "calcium": 16
-    },
-    "shelf_life_days": 21,
-    "recipe_frequency_per_1000": 48,
-    "estimated_cost_per_lb_usd": 1.49
-  },
-  {
-    "name": "radish",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 16,
-      "protein": 0.7,
-      "fat": 0.1,
-      "carbohydrates": 3.4,
-      "fiber": 1.6,
-      "sugar": 1.9,
-      "sodium": 39,
-      "potassium": 233,
-      "vitamin": 14.8,
-      "calcium": 25
-    },
-    "shelf_life_days": 14,
-    "recipe_frequency_per_1000": 32,
-    "estimated_cost_per_lb_usd": 1.1
-  },
-  {
-    "name": "bell pepper",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 20,
-      "protein": 1.0,
-      "fat": 0.2,
-      "carbohydrates": 4.6,
-      "fiber": 2.1,
-      "sugar": 4.2,
-      "sodium": 4,
-      "potassium": 211,
-      "vitamin": 80.4,
-      "calcium": 10
-    },
-    "shelf_life_days": 10,
-    "recipe_frequency_per_1000": 260,
-    "estimated_cost_per_lb_usd": 2.29
-  },
-  {
-    "name": "zucchini",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 17,
-      "protein": 1.2,
-      "fat": 0.3,
-      "carbohydrates": 3.1,
-      "fiber": 1.0,
-      "sugar": 2.5,
-      "sodium": 8,
-      "potassium": 261,
-      "vitamin": 17.9,
-      "calcium": 16
-    },
-    "shelf_life_days": 7,
-    "recipe_frequency_per_1000": 135,
-    "estimated_cost_per_lb_usd": 1.6
-  },
-  {
-    "name": "eggplant",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 25,
-      "protein": 1.0,
-      "fat": 0.2,
-      "carbohydrates": 5.9,
-      "fiber": 3.0,
-      "sugar": 3.5,
-      "sodium": 2,
-      "potassium": 229,
-      "vitamin": 2.2,
-      "calcium": 9
-    },
-    "shelf_life_days": 7,
-    "recipe_frequency_per_1000": 78,
-    "estimated_cost_per_lb_usd": 1.99
-  },
-  {
-    "name": "green pea",
-    "category": "vegetable",
-    "nutrition": {
-      "calories": 81,
-      "protein": 5.4,
-      "fat": 0.4,
-      "carbohydrates": 14.5,
-      "fiber": 5.1,
-      "sugar": 5.7,
-      "sodium": 5,
-      "potassium": 244,
-      "vitamin": 40.0,
-      "calcium": 25
-    },
-    "shelf_life_days": 5,
-    "recipe_frequency_per_1000": 105,
-    "estimated_cost_per_lb_usd": 1.45
-  },
-  {
-    "name": "lemon",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 29,
-      "protein": 1.1,
-      "fat": 0.3,
-      "carbohydrates": 9.3,
-      "fiber": 2.8,
-      "sugar": 2.5,
-      "sodium": 2,
-      "potassium": 138,
-      "vitamin": 53.0,
-      "calcium": 26
-    },
-    "shelf_life_days": 21,
-    "recipe_frequency_per_1000": 380,
-    "estimated_cost_per_lb_usd": 1.99
-  },
-  {
-    "name": "lime",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 30,
-      "protein": 0.7,
-      "fat": 0.2,
-      "carbohydrates": 10.5,
-      "fiber": 2.8,
-      "sugar": 1.7,
-      "sodium": 2,
-      "potassium": 102,
-      "vitamin": 29.1,
-      "calcium": 33
-    },
-    "shelf_life_days": 21,
-    "recipe_frequency_per_1000": 290,
-    "estimated_cost_per_lb_usd": 2.25
-  },
-  {
-    "name": "grapefruit",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 42,
-      "protein": 0.8,
-      "fat": 0.1,
-      "carbohydrates": 10.7,
-      "fiber": 1.6,
-      "sugar": 7.0,
-      "sodium": 0,
-      "potassium": 135,
-      "vitamin": 31.2,
-      "calcium": 22
-    },
-    "shelf_life_days": 21,
-    "recipe_frequency_per_1000": 35,
-    "estimated_cost_per_lb_usd": 1.49
-  },
-  {
-    "name": "pear",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 57,
-      "protein": 0.4,
-      "fat": 0.1,
-      "carbohydrates": 15.2,
-      "fiber": 3.1,
-      "sugar": 9.8,
-      "sodium": 1,
-      "potassium": 116,
-      "vitamin": 4.3,
-      "calcium": 9
-    },
-    "shelf_life_days": 14,
-    "recipe_frequency_per_1000": 62,
-    "estimated_cost_per_lb_usd": 1.85
-  },
-  {
-    "name": "peach",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 39,
-      "protein": 0.9,
-      "fat": 0.3,
-      "carbohydrates": 9.5,
-      "fiber": 1.5,
-      "sugar": 8.4,
-      "sodium": 0,
-      "potassium": 190,
-      "vitamin": 6.6,
-      "calcium": 6
-    },
-    "shelf_life_days": 5,
-    "recipe_frequency_per_1000": 78,
-    "estimated_cost_per_lb_usd": 2.49
-  },
-  {
-    "name": "plum",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 46,
-      "protein": 0.7,
-      "fat": 0.3,
-      "carbohydrates": 11.4,
-      "fiber": 1.4,
-      "sugar": 9.9,
-      "sodium": 0,
-      "potassium": 157,
-      "vitamin": 9.5,
-      "calcium": 6
-    },
-    "shelf_life_days": 7,
-    "recipe_frequency_per_1000": 40,
-    "estimated_cost_per_lb_usd": 2.1
-  },
-  {
-    "name": "cherry",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 63,
-      "protein": 1.1,
-      "fat": 0.2,
-      "carbohydrates": 16.0,
-      "fiber": 2.1,
-      "sugar": 12.8,
-      "sodium": 0,
-      "potassium": 222,
-      "vitamin": 7.0,
-      "calcium": 13
-    },
-    "shelf_life_days": 7,
-    "recipe_frequency_per_1000": 58,
-    "estimated_cost_per_lb_usd": 4.99
-  },
-  {
-    "name": "strawberry",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 32,
-      "protein": 0.7,
-      "fat": 0.3,
-      "carbohydrates": 7.7,
-      "fiber": 2.0,
-      "sugar": 4.9,
-      "sodium": 1,
-      "potassium": 153,
-      "vitamin": 58.8,
-      "calcium": 16
-    },
-    "shelf_life_days": 5,
-    "recipe_frequency_per_1000": 145,
-    "estimated_cost_per_lb_usd": 3.5
-  },
-  {
-    "name": "raspberry",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 52,
-      "protein": 1.2,
-      "fat": 0.7,
-      "carbohydrates": 11.9,
-      "fiber": 6.5,
-      "sugar": 4.4,
-      "sodium": 1,
-      "potassium": 151,
-      "vitamin": 26.2,
-      "calcium": 25
-    },
-    "shelf_life_days": 3,
-    "recipe_frequency_per_1000": 68,
-    "estimated_cost_per_lb_usd": 5.99
-  },
-  {
-    "name": "blackberry",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 43,
-      "protein": 1.4,
-      "fat": 0.5,
-      "carbohydrates": 9.6,
-      "fiber": 5.3,
-      "sugar": 4.9,
-      "sodium": 1,
-      "potassium": 162,
-      "vitamin": 21.0,
-      "calcium": 29
-    },
-    "shelf_life_days": 3,
-    "recipe_frequency_per_1000": 52,
-    "estimated_cost_per_lb_usd": 5.5
-  },
-  {
-    "name": "mango",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 60,
-      "protein": 0.8,
-      "fat": 0.4,
-      "carbohydrates": 15.0,
-      "fiber": 1.6,
-      "sugar": 13.7,
-      "sodium": 1,
-      "potassium": 168,
-      "vitamin": 36.4,
-      "calcium": 11
-    },
-    "shelf_life_days": 7,
-    "recipe_frequency_per_1000": 90,
-    "estimated_cost_per_lb_usd": 2.2
-  },
-  {
-    "name": "pineapple",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 50,
-      "protein": 0.5,
-      "fat": 0.1,
-      "carbohydrates": 13.1,
-      "fiber": 1.4,
-      "sugar": 9.9,
-      "sodium": 1,
-      "potassium": 109,
-      "vitamin": 47.8,
-      "calcium": 13
-    },
-    "shelf_life_days": 6,
-    "recipe_frequency_per_1000": 112,
-    "estimated_cost_per_lb_usd": 1.65
-  },
-  {
-    "name": "avocado",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 160,
-      "protein": 2.0,
-      "fat": 14.7,
-      "carbohydrates": 8.5,
-      "fiber": 6.7,
-      "sugar": 0.7,
-      "sodium": 7,
-      "potassium": 485,
-      "vitamin": 10.0,
-      "calcium": 12
-    },
-    "shelf_life_days": 5,
-    "recipe_frequency_per_1000": 185,
-    "estimated_cost_per_lb_usd": 2.8
-  },
-  {
-    "name": "pomegranate",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 83,
-      "protein": 1.7,
-      "fat": 1.2,
-      "carbohydrates": 18.7,
-      "fiber": 4.0,
-      "sugar": 13.7,
-      "sodium": 3,
-      "potassium": 236,
-      "vitamin": 10.2,
-      "calcium": 10
-    },
-    "shelf_life_days": 30,
-    "recipe_frequency_per_1000": 32,
-    "estimated_cost_per_lb_usd": 3.99
-  },
-  {
-    "name": "melon",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 36,
-      "protein": 0.5,
-      "fat": 0.1,
-      "carbohydrates": 9.1,
-      "fiber": 0.8,
-      "sugar": 8.1,
-      "sodium": 9,
-      "potassium": 228,
-      "vitamin": 18.0,
-      "calcium": 6
-    },
-    "shelf_life_days": 10,
-    "recipe_frequency_per_1000": 45,
-    "estimated_cost_per_lb_usd": 0.95
-  },
-  {
-    "name": "cantaloupe",
-    "category": "fruit",
-    "nutrition": {
-      "calories": 34,
-      "protein": 0.8,
-      "fat": 0.2,
-      "carbohydrates": 8.2,
-      "fiber": 0.9,
-      "sugar": 7.9,
-      "sodium": 16,
-      "potassium": 267,
-      "vitamin": 36.7,
-      "calcium": 9
-    },
-    "shelf_life_days": 10,
-    "recipe_frequency_per_1000": 55,
-    "estimated_cost_per_lb_usd": 1.1
-  },
-  {
-    "name": "turkey breast",
-    "category": "protein",
-    "nutrition": {
-      "calories": 135,
-      "protein": 30.1,
-      "fat": 0.7,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 68,
-      "potassium": 333,
-      "vitamin": 0.0,
-      "calcium": 14
-    },
-    "shelf_life_days": 2,
-    "recipe_frequency_per_1000": 95,
-    "estimated_cost_per_lb_usd": 4.8
-  },
-  {
-    "name": "lean beef",
-    "category": "protein",
-    "nutrition": {
-      "calories": 174,
-      "protein": 26.1,
-      "fat": 7.1,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 57,
-      "potassium": 318,
-      "vitamin": 0.0,
-      "calcium": 18
-    },
-    "shelf_life_days": 4,
-    "recipe_frequency_per_1000": 210,
-    "estimated_cost_per_lb_usd": 6.99
-  },
-  {
-    "name": "pork tenderloin",
-    "category": "protein",
-    "nutrition": {
-      "calories": 143,
-      "protein": 26.2,
-      "fat": 3.6,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 48,
-      "potassium": 419,
-      "vitamin": 0.0,
-      "calcium": 6
-    },
-    "shelf_life_days": 4,
-    "recipe_frequency_per_1000": 85,
-    "estimated_cost_per_lb_usd": 4.49
-  },
-  {
-    "name": "lamb",
-    "category": "protein",
-    "nutrition": {
-      "calories": 202,
-      "protein": 24.5,
-      "fat": 11.0,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 65,
-      "potassium": 310,
-      "vitamin": 0,
-      "calcium": 15
-    },
-    "shelf_life_days": 4,
-    "recipe_frequency_per_1000": 60,
-    "estimated_cost_per_lb_usd": 8.5
-  },
-  {
-    "name": "shrimp",
-    "category": "protein",
-    "nutrition": {
-      "calories": 99,
-      "protein": 24.0,
-      "fat": 0.3,
-      "carbohydrates": 0.2,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 119,
-      "potassium": 259,
-      "vitamin": 0.0,
-      "calcium": 70
-    },
-    "shelf_life_days": 2,
-    "recipe_frequency_per_1000": 130,
-    "estimated_cost_per_lb_usd": 7.99
-  },
-  {
-    "name": "cod",
-    "category": "protein",
-    "nutrition": {
-      "calories": 82,
-      "protein": 20.4,
-      "fat": 0.7,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 78,
-      "potassium": 413,
-      "vitamin": 1.0,
-      "calcium": 16
-    },
-    "shelf_life_days": 2,
-    "recipe_frequency_per_1000": 55,
-    "estimated_cost_per_lb_usd": 8.25
-  },
-  {
-    "name": "sardine",
-    "category": "protein",
-    "nutrition": {
-      "calories": 208,
-      "protein": 24.6,
-      "fat": 11.5,
-      "carbohydrates": 0.0,
-      "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 305,
-      "potassium": 397,
-      "vitamin": 0.0,
-      "calcium": 382
-    },
-    "shelf_life_days": 1095,
-    "recipe_frequency_per_1000": 42,
-    "estimated_cost_per_lb_usd": 4.1
-  },
-  {
-    "name": "tempeh",
-    "category": "protein",
-    "nutrition": {
-      "calories": 192,
-      "protein": 18.5,
-      "fat": 10.8,
-      "carbohydrates": 9.4,
-      "fiber": 9.0,
-      "sugar": 0.0,
-      "sodium": 9,
-      "potassium": 412,
-      "vitamin": 0.0,
-      "calcium": 111
-    },
-    "shelf_life_days": 14,
-    "recipe_frequency_per_1000": 35,
-    "estimated_cost_per_lb_usd": 3.75
-  },
-  {
     "name": "spinach",
     "category": "vegetable",
     "nutrition": {
-      "calories": 23,
       "protein": 2.9,
-      "fat": 0.4,
-      "carbohydrates": 3.6,
       "fiber": 2.2,
-      "sugar": 0.4,
-      "sodium": 79,
-      "potassium": 558,
+      "carb": 3.6,
+      "fat": 0.4,
       "vitamin": 28.1,
-      "calcium": 99
+      "iron": 2.7,
+      "calcium": 99,
+      "omega3": 0.02,
+      "sugar": 0.4,
+      "sodium": 79
     },
     "shelf_life_days": 7,
     "recipe_frequency_per_1000": 120,
@@ -725,16 +22,16 @@
     "name": "broccoli",
     "category": "vegetable",
     "nutrition": {
-      "calories": 34,
       "protein": 2.8,
-      "fat": 0.4,
-      "carbohydrates": 6.6,
       "fiber": 2.6,
-      "sugar": 1.7,
-      "sodium": 33,
-      "potassium": 316,
+      "carb": 6.6,
+      "fat": 0.4,
       "vitamin": 89.2,
-      "calcium": 47
+      "iron": 0.7,
+      "calcium": 47,
+      "omega3": 0.02,
+      "sugar": 1.7,
+      "sodium": 33
     },
     "shelf_life_days": 10,
     "recipe_frequency_per_1000": 95,
@@ -744,16 +41,16 @@
     "name": "onion",
     "category": "vegetable",
     "nutrition": {
-      "calories": 40,
       "protein": 1.1,
-      "fat": 0.1,
-      "carbohydrates": 9.3,
       "fiber": 1.7,
-      "sugar": 4.2,
-      "sodium": 4,
-      "potassium": 146,
+      "carb": 9.3,
+      "fat": 0.1,
       "vitamin": 7.4,
-      "calcium": 23
+      "iron": 0.2,
+      "calcium": 23,
+      "omega3": 0.0,
+      "sugar": 4.2,
+      "sodium": 4
     },
     "shelf_life_days": 30,
     "recipe_frequency_per_1000": 580,
@@ -763,16 +60,16 @@
     "name": "tomato",
     "category": "vegetable",
     "nutrition": {
-      "calories": 18,
       "protein": 0.9,
-      "fat": 0.2,
-      "carbohydrates": 3.9,
       "fiber": 1.2,
-      "sugar": 2.6,
-      "sodium": 5,
-      "potassium": 237,
+      "carb": 3.9,
+      "fat": 0.2,
       "vitamin": 13.7,
-      "calcium": 10
+      "iron": 0.3,
+      "calcium": 10,
+      "omega3": 0.0,
+      "sugar": 2.6,
+      "sodium": 5
     },
     "shelf_life_days": 7,
     "recipe_frequency_per_1000": 365,
@@ -782,16 +79,16 @@
     "name": "mushroom",
     "category": "vegetable",
     "nutrition": {
-      "calories": 22,
       "protein": 3.1,
-      "fat": 0.3,
-      "carbohydrates": 3.3,
       "fiber": 1.0,
-      "sugar": 2.0,
-      "sodium": 5,
-      "potassium": 318,
+      "carb": 3.3,
+      "fat": 0.3,
       "vitamin": 2.1,
-      "calcium": 3
+      "iron": 0.5,
+      "calcium": 3,
+      "omega3": 0.0,
+      "sugar": 2.0,
+      "sodium": 5
     },
     "shelf_life_days": 7,
     "recipe_frequency_per_1000": 140,
@@ -801,16 +98,16 @@
     "name": "kale",
     "category": "vegetable",
     "nutrition": {
-      "calories": 49,
       "protein": 4.3,
-      "fat": 0.9,
-      "carbohydrates": 8.8,
       "fiber": 3.6,
-      "sugar": 2.2,
-      "sodium": 38,
-      "potassium": 491,
+      "carb": 8.8,
+      "fat": 0.9,
       "vitamin": 120.0,
-      "calcium": 150
+      "iron": 1.5,
+      "calcium": 150,
+      "omega3": 0.18,
+      "sugar": 2.2,
+      "sodium": 38
     },
     "shelf_life_days": 7,
     "recipe_frequency_per_1000": 48,
@@ -820,16 +117,16 @@
     "name": "carrot",
     "category": "vegetable",
     "nutrition": {
-      "calories": 41,
       "protein": 0.9,
-      "fat": 0.2,
-      "carbohydrates": 9.6,
       "fiber": 2.8,
-      "sugar": 4.7,
-      "sodium": 69,
-      "potassium": 320,
+      "carb": 9.6,
+      "fat": 0.2,
       "vitamin": 5.9,
-      "calcium": 33
+      "iron": 0.3,
+      "calcium": 33,
+      "omega3": 0.0,
+      "sugar": 4.7,
+      "sodium": 69
     },
     "shelf_life_days": 28,
     "recipe_frequency_per_1000": 210,
@@ -839,16 +136,16 @@
     "name": "garlic",
     "category": "vegetable",
     "nutrition": {
-      "calories": 149,
       "protein": 6.4,
-      "fat": 0.5,
-      "carbohydrates": 33.1,
       "fiber": 2.1,
-      "sugar": 1.0,
-      "sodium": 17,
-      "potassium": 401,
+      "carb": 33.1,
+      "fat": 0.5,
       "vitamin": 31.2,
-      "calcium": 181
+      "iron": 1.7,
+      "calcium": 181,
+      "omega3": 0.0,
+      "sugar": 1.0,
+      "sodium": 17
     },
     "shelf_life_days": 150,
     "recipe_frequency_per_1000": 640,
@@ -858,16 +155,16 @@
     "name": "bean",
     "category": "vegetable",
     "nutrition": {
-      "calories": 341,
       "protein": 21.6,
-      "fat": 1.2,
-      "carbohydrates": 61.5,
       "fiber": 15.5,
-      "sugar": 2.1,
-      "sodium": 12,
-      "potassium": 1393,
+      "carb": 61.5,
+      "fat": 1.2,
       "vitamin": 4.5,
-      "calcium": 143
+      "iron": 5.1,
+      "calcium": 143,
+      "omega3": 0.14,
+      "sugar": 2.1,
+      "sodium": 12
     },
     "shelf_life_days": 365,
     "recipe_frequency_per_1000": 130,
@@ -877,16 +174,16 @@
     "name": "lentil",
     "category": "vegetable",
     "nutrition": {
-      "calories": 352,
       "protein": 24.6,
-      "fat": 1.1,
-      "carbohydrates": 63.4,
       "fiber": 10.7,
-      "sugar": 2.0,
-      "sodium": 6,
-      "potassium": 955,
+      "carb": 63.4,
+      "fat": 1.1,
       "vitamin": 4.4,
-      "calcium": 56
+      "iron": 6.5,
+      "calcium": 56,
+      "omega3": 0.11,
+      "sugar": 2.0,
+      "sodium": 6
     },
     "shelf_life_days": 365,
     "recipe_frequency_per_1000": 45,
@@ -896,16 +193,16 @@
     "name": "banana",
     "category": "fruit",
     "nutrition": {
-      "calories": 89,
       "protein": 1.1,
-      "fat": 0.3,
-      "carbohydrates": 22.8,
       "fiber": 2.6,
-      "sugar": 12.2,
-      "sodium": 1,
-      "potassium": 358,
+      "carb": 22.8,
+      "fat": 0.3,
       "vitamin": 8.7,
-      "calcium": 5
+      "iron": 0.3,
+      "calcium": 5,
+      "omega3": 0.03,
+      "sugar": 12.2,
+      "sodium": 1
     },
     "shelf_life_days": 5,
     "recipe_frequency_per_1000": 95,
@@ -915,16 +212,16 @@
     "name": "apple",
     "category": "fruit",
     "nutrition": {
-      "calories": 52,
       "protein": 0.3,
-      "fat": 0.2,
-      "carbohydrates": 13.8,
       "fiber": 2.4,
-      "sugar": 10.4,
-      "sodium": 1,
-      "potassium": 107,
+      "carb": 13.8,
+      "fat": 0.2,
       "vitamin": 4.6,
-      "calcium": 6
+      "iron": 0.1,
+      "calcium": 6,
+      "omega3": 0.01,
+      "sugar": 10.4,
+      "sodium": 1
     },
     "shelf_life_days": 21,
     "recipe_frequency_per_1000": 85,
@@ -934,16 +231,16 @@
     "name": "blueberry",
     "category": "fruit",
     "nutrition": {
-      "calories": 57,
       "protein": 0.7,
-      "fat": 0.3,
-      "carbohydrates": 14.5,
       "fiber": 2.4,
-      "sugar": 10.0,
-      "sodium": 1,
-      "potassium": 77,
+      "carb": 14.5,
+      "fat": 0.3,
       "vitamin": 9.7,
-      "calcium": 6
+      "iron": 0.3,
+      "calcium": 6,
+      "omega3": 0.01,
+      "sugar": 10.0,
+      "sodium": 1
     },
     "shelf_life_days": 10,
     "recipe_frequency_per_1000": 65,
@@ -953,16 +250,16 @@
     "name": "orange",
     "category": "fruit",
     "nutrition": {
-      "calories": 47,
       "protein": 0.9,
-      "fat": 0.1,
-      "carbohydrates": 11.8,
       "fiber": 2.4,
-      "sugar": 9.4,
-      "sodium": 0,
-      "potassium": 181,
+      "carb": 11.8,
+      "fat": 0.1,
       "vitamin": 53.2,
-      "calcium": 40
+      "iron": 0.1,
+      "calcium": 40,
+      "omega3": 0.01,
+      "sugar": 9.4,
+      "sodium": 0
     },
     "shelf_life_days": 14,
     "recipe_frequency_per_1000": 75,
@@ -972,16 +269,16 @@
     "name": "egg",
     "category": "protein",
     "nutrition": {
-      "calories": 155,
       "protein": 12.6,
-      "fat": 10.6,
-      "carbohydrates": 1.1,
       "fiber": 0.0,
-      "sugar": 0.4,
-      "sodium": 124,
-      "potassium": 138,
+      "carb": 1.1,
+      "fat": 10.6,
       "vitamin": 0.0,
-      "calcium": 56
+      "iron": 1.8,
+      "calcium": 56,
+      "omega3": 0.07,
+      "sugar": 0.4,
+      "sodium": 124
     },
     "shelf_life_days": 35,
     "recipe_frequency_per_1000": 450,
@@ -991,16 +288,16 @@
     "name": "chicken breast",
     "category": "protein",
     "nutrition": {
-      "calories": 165,
       "protein": 31.0,
-      "fat": 3.6,
-      "carbohydrates": 0.0,
       "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 74,
-      "potassium": 256,
+      "carb": 0.0,
+      "fat": 3.6,
       "vitamin": 0.0,
-      "calcium": 15
+      "iron": 1.0,
+      "calcium": 15,
+      "omega3": 0.03,
+      "sugar": 0.0,
+      "sodium": 74
     },
     "shelf_life_days": 2,
     "recipe_frequency_per_1000": 280,
@@ -1010,16 +307,16 @@
     "name": "salmon",
     "category": "protein",
     "nutrition": {
-      "calories": 208,
       "protein": 20.0,
-      "fat": 13.4,
-      "carbohydrates": 0.0,
       "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 59,
-      "potassium": 363,
+      "carb": 0.0,
+      "fat": 13.4,
       "vitamin": 0.0,
-      "calcium": 9
+      "iron": 0.3,
+      "calcium": 9,
+      "omega3": 2.26,
+      "sugar": 0.0,
+      "sodium": 59
     },
     "shelf_life_days": 2,
     "recipe_frequency_per_1000": 55,
@@ -1029,16 +326,16 @@
     "name": "tofu",
     "category": "protein",
     "nutrition": {
-      "calories": 76,
       "protein": 8.0,
-      "fat": 4.8,
-      "carbohydrates": 1.9,
       "fiber": 0.9,
-      "sugar": 0.5,
-      "sodium": 7,
-      "potassium": 121,
+      "carb": 1.9,
+      "fat": 4.8,
       "vitamin": 0.1,
-      "calcium": 350
+      "iron": 5.4,
+      "calcium": 350,
+      "omega3": 0.09,
+      "sugar": 0.5,
+      "sodium": 7
     },
     "shelf_life_days": 21,
     "recipe_frequency_per_1000": 40,
@@ -1048,16 +345,16 @@
     "name": "tuna",
     "category": "protein",
     "nutrition": {
-      "calories": 132,
       "protein": 28.2,
-      "fat": 1.3,
-      "carbohydrates": 0.0,
       "fiber": 0.0,
-      "sugar": 0.0,
-      "sodium": 50,
-      "potassium": 444,
+      "carb": 0.0,
+      "fat": 1.3,
       "vitamin": 0.0,
-      "calcium": 11
+      "iron": 1.0,
+      "calcium": 11,
+      "omega3": 0.24,
+      "sugar": 0.0,
+      "sodium": 50
     },
     "shelf_life_days": 1095,
     "recipe_frequency_per_1000": 60,
@@ -1067,16 +364,16 @@
     "name": "oat",
     "category": "grain",
     "nutrition": {
-      "calories": 389,
       "protein": 16.9,
-      "fat": 6.9,
-      "carbohydrates": 66.3,
       "fiber": 10.6,
-      "sugar": 0.0,
-      "sodium": 2,
-      "potassium": 429,
+      "carb": 66.3,
+      "fat": 6.9,
       "vitamin": 0.0,
-      "calcium": 54
+      "iron": 4.7,
+      "calcium": 54,
+      "omega3": 0.11,
+      "sugar": 0.0,
+      "sodium": 2
     },
     "shelf_life_days": 365,
     "recipe_frequency_per_1000": 115,
@@ -1086,16 +383,16 @@
     "name": "rice",
     "category": "grain",
     "nutrition": {
-      "calories": 362,
       "protein": 7.5,
-      "fat": 2.7,
-      "carbohydrates": 76.2,
       "fiber": 3.5,
-      "sugar": 0.7,
-      "sodium": 5,
-      "potassium": 268,
+      "carb": 76.2,
+      "fat": 2.7,
       "vitamin": 0.0,
-      "calcium": 33
+      "iron": 1.8,
+      "calcium": 33,
+      "omega3": 0.01,
+      "sugar": 0.7,
+      "sodium": 5
     },
     "shelf_life_days": 180,
     "recipe_frequency_per_1000": 190,
@@ -1105,16 +402,16 @@
     "name": "quinoa",
     "category": "grain",
     "nutrition": {
-      "calories": 368,
       "protein": 14.1,
-      "fat": 6.1,
-      "carbohydrates": 64.2,
       "fiber": 7.0,
-      "sugar": 0.0,
-      "sodium": 5,
-      "potassium": 563,
+      "carb": 64.2,
+      "fat": 6.1,
       "vitamin": 0.0,
-      "calcium": 47
+      "iron": 4.6,
+      "calcium": 47,
+      "omega3": 0.31,
+      "sugar": 0.0,
+      "sodium": 5
     },
     "shelf_life_days": 365,
     "recipe_frequency_per_1000": 35,
@@ -1124,16 +421,16 @@
     "name": "greek yogurt",
     "category": "dairy",
     "nutrition": {
-      "calories": 59,
       "protein": 10.0,
-      "fat": 0.4,
-      "carbohydrates": 3.6,
       "fiber": 0.0,
-      "sugar": 3.6,
-      "sodium": 36,
-      "potassium": 141,
+      "carb": 3.6,
+      "fat": 0.4,
       "vitamin": 0.0,
-      "calcium": 110
+      "iron": 0.0,
+      "calcium": 110,
+      "omega3": 0.0,
+      "sugar": 3.6,
+      "sodium": 36
     },
     "shelf_life_days": 14,
     "recipe_frequency_per_1000": 70,
@@ -1143,19 +440,722 @@
     "name": "milk",
     "category": "dairy",
     "nutrition": {
-      "calories": 61,
       "protein": 3.2,
-      "fat": 3.3,
-      "carbohydrates": 4.8,
       "fiber": 0.0,
-      "sugar": 4.8,
-      "sodium": 44,
-      "potassium": 132,
+      "carb": 4.8,
+      "fat": 3.3,
       "vitamin": 0.0,
-      "calcium": 113
+      "iron": 0.0,
+      "calcium": 113,
+      "omega3": 0.01,
+      "sugar": 4.8,
+      "sodium": 44
     },
     "shelf_life_days": 7,
     "recipe_frequency_per_1000": 310,
     "estimated_cost_per_lb_usd": 0.65
+  },
+  {
+    "name": "turkey breast",
+    "category": "protein",
+    "nutrition": {
+      "protein": 30.1,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 0.7,
+      "vitamin": 0.0,
+      "iron": 1.1,
+      "calcium": 14,
+      "omega3": 0.02,
+      "sugar": 0.0,
+      "sodium": 68
+    },
+    "shelf_life_days": 2,
+    "recipe_frequency_per_1000": 95,
+    "estimated_cost_per_lb_usd": 4.8
+  },
+  {
+    "name": "lean beef",
+    "category": "protein",
+    "nutrition": {
+      "protein": 26.1,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 7.1,
+      "vitamin": 0.0,
+      "iron": 2.6,
+      "calcium": 18,
+      "omega3": 0.05,
+      "sugar": 0.0,
+      "sodium": 57
+    },
+    "shelf_life_days": 4,
+    "recipe_frequency_per_1000": 210,
+    "estimated_cost_per_lb_usd": 6.99
+  },
+  {
+    "name": "pork tenderloin",
+    "category": "protein",
+    "nutrition": {
+      "protein": 26.2,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 3.6,
+      "vitamin": 0.0,
+      "iron": 0.9,
+      "calcium": 6,
+      "omega3": 0.01,
+      "sugar": 0.0,
+      "sodium": 48
+    },
+    "shelf_life_days": 4,
+    "recipe_frequency_per_1000": 85,
+    "estimated_cost_per_lb_usd": 4.49
+  },
+  {
+    "name": "lamb",
+    "category": "protein",
+    "nutrition": {
+      "protein": 24.5,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 11.0,
+      "vitamin": 0.0,
+      "iron": 1.9,
+      "calcium": 15,
+      "omega3": 0.15,
+      "sugar": 0.0,
+      "sodium": 65
+    },
+    "shelf_life_days": 4,
+    "recipe_frequency_per_1000": 60,
+    "estimated_cost_per_lb_usd": 8.5
+  },
+  {
+    "name": "shrimp",
+    "category": "protein",
+    "nutrition": {
+      "protein": 24.0,
+      "fiber": 0.0,
+      "carb": 0.2,
+      "fat": 0.3,
+      "vitamin": 0.0,
+      "iron": 0.5,
+      "calcium": 70,
+      "omega3": 0.12,
+      "sugar": 0.0,
+      "sodium": 119
+    },
+    "shelf_life_days": 2,
+    "recipe_frequency_per_1000": 130,
+    "estimated_cost_per_lb_usd": 7.99
+  },
+  {
+    "name": "cod",
+    "category": "protein",
+    "nutrition": {
+      "protein": 20.4,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 0.7,
+      "vitamin": 1.0,
+      "iron": 0.4,
+      "calcium": 16,
+      "omega3": 0.14,
+      "sugar": 0.0,
+      "sodium": 78
+    },
+    "shelf_life_days": 2,
+    "recipe_frequency_per_1000": 55,
+    "estimated_cost_per_lb_usd": 8.25
+  },
+  {
+    "name": "sardine",
+    "category": "protein",
+    "nutrition": {
+      "protein": 24.6,
+      "fiber": 0.0,
+      "carb": 0.0,
+      "fat": 11.5,
+      "vitamin": 0.0,
+      "iron": 2.9,
+      "calcium": 382,
+      "omega3": 1.48,
+      "sugar": 0.0,
+      "sodium": 305
+    },
+    "shelf_life_days": 1095,
+    "recipe_frequency_per_1000": 42,
+    "estimated_cost_per_lb_usd": 4.1
+  },
+  {
+    "name": "tempeh",
+    "category": "protein",
+    "nutrition": {
+      "protein": 18.5,
+      "fiber": 9.0,
+      "carb": 9.4,
+      "fat": 10.8,
+      "vitamin": 0.0,
+      "iron": 2.7,
+      "calcium": 111,
+      "omega3": 0.22,
+      "sugar": 0.0,
+      "sodium": 9
+    },
+    "shelf_life_days": 14,
+    "recipe_frequency_per_1000": 35,
+    "estimated_cost_per_lb_usd": 3.75
+  },
+  {
+    "name": "lemon",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 1.1,
+      "fiber": 2.8,
+      "carb": 9.3,
+      "fat": 0.3,
+      "vitamin": 53.0,
+      "iron": 0.6,
+      "calcium": 26,
+      "omega3": 0.01,
+      "sugar": 2.5,
+      "sodium": 2
+    },
+    "shelf_life_days": 21,
+    "recipe_frequency_per_1000": 380,
+    "estimated_cost_per_lb_usd": 1.99
+  },
+  {
+    "name": "lime",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.7,
+      "fiber": 2.8,
+      "carb": 10.5,
+      "fat": 0.2,
+      "vitamin": 29.1,
+      "iron": 0.6,
+      "calcium": 33,
+      "omega3": 0.01,
+      "sugar": 1.7,
+      "sodium": 2
+    },
+    "shelf_life_days": 21,
+    "recipe_frequency_per_1000": 290,
+    "estimated_cost_per_lb_usd": 2.25
+  },
+  {
+    "name": "grapefruit",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.8,
+      "fiber": 1.6,
+      "carb": 10.7,
+      "fat": 0.1,
+      "vitamin": 31.2,
+      "iron": 0.1,
+      "calcium": 22,
+      "omega3": 0.01,
+      "sugar": 7.0,
+      "sodium": 0
+    },
+    "shelf_life_days": 21,
+    "recipe_frequency_per_1000": 35,
+    "estimated_cost_per_lb_usd": 1.49
+  },
+  {
+    "name": "pear",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.4,
+      "fiber": 3.1,
+      "carb": 15.2,
+      "fat": 0.1,
+      "vitamin": 4.3,
+      "iron": 0.2,
+      "calcium": 9,
+      "omega3": 0.0,
+      "sugar": 9.8,
+      "sodium": 1
+    },
+    "shelf_life_days": 14,
+    "recipe_frequency_per_1000": 62,
+    "estimated_cost_per_lb_usd": 1.85
+  },
+  {
+    "name": "peach",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.9,
+      "fiber": 1.5,
+      "carb": 9.5,
+      "fat": 0.3,
+      "vitamin": 6.6,
+      "iron": 0.3,
+      "calcium": 6,
+      "omega3": 0.0,
+      "sugar": 8.4,
+      "sodium": 0
+    },
+    "shelf_life_days": 5,
+    "recipe_frequency_per_1000": 78,
+    "estimated_cost_per_lb_usd": 2.49
+  },
+  {
+    "name": "plum",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.7,
+      "fiber": 1.4,
+      "carb": 11.4,
+      "fat": 0.3,
+      "vitamin": 9.5,
+      "iron": 0.2,
+      "calcium": 6,
+      "omega3": 0.0,
+      "sugar": 9.9,
+      "sodium": 0
+    },
+    "shelf_life_days": 7,
+    "recipe_frequency_per_1000": 40,
+    "estimated_cost_per_lb_usd": 2.1
+  },
+  {
+    "name": "cherry",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 1.1,
+      "fiber": 2.1,
+      "carb": 16.0,
+      "fat": 0.2,
+      "vitamin": 7.0,
+      "iron": 0.4,
+      "calcium": 13,
+      "omega3": 0.06,
+      "sugar": 12.8,
+      "sodium": 0
+    },
+    "shelf_life_days": 7,
+    "recipe_frequency_per_1000": 58,
+    "estimated_cost_per_lb_usd": 4.99
+  },
+  {
+    "name": "strawberry",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.7,
+      "fiber": 2.0,
+      "carb": 7.7,
+      "fat": 0.3,
+      "vitamin": 58.8,
+      "iron": 0.4,
+      "calcium": 16,
+      "omega3": 0.07,
+      "sugar": 4.9,
+      "sodium": 1
+    },
+    "shelf_life_days": 5,
+    "recipe_frequency_per_1000": 145,
+    "estimated_cost_per_lb_usd": 3.5
+  },
+  {
+    "name": "raspberry",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 1.2,
+      "fiber": 6.5,
+      "carb": 11.9,
+      "fat": 0.7,
+      "vitamin": 26.2,
+      "iron": 0.7,
+      "calcium": 25,
+      "omega3": 0.13,
+      "sugar": 4.4,
+      "sodium": 1
+    },
+    "shelf_life_days": 3,
+    "recipe_frequency_per_1000": 68,
+    "estimated_cost_per_lb_usd": 5.99
+  },
+  {
+    "name": "blackberry",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 1.4,
+      "fiber": 5.3,
+      "carb": 9.6,
+      "fat": 0.5,
+      "vitamin": 21.0,
+      "iron": 0.6,
+      "calcium": 29,
+      "omega3": 0.1,
+      "sugar": 4.9,
+      "sodium": 1
+    },
+    "shelf_life_days": 3,
+    "recipe_frequency_per_1000": 52,
+    "estimated_cost_per_lb_usd": 5.5
+  },
+  {
+    "name": "mango",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.8,
+      "fiber": 1.6,
+      "carb": 15.0,
+      "fat": 0.4,
+      "vitamin": 36.4,
+      "iron": 0.2,
+      "calcium": 11,
+      "omega3": 0.04,
+      "sugar": 13.7,
+      "sodium": 1
+    },
+    "shelf_life_days": 7,
+    "recipe_frequency_per_1000": 90,
+    "estimated_cost_per_lb_usd": 2.2
+  },
+  {
+    "name": "pineapple",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.5,
+      "fiber": 1.4,
+      "carb": 13.1,
+      "fat": 0.1,
+      "vitamin": 47.8,
+      "iron": 0.3,
+      "calcium": 13,
+      "omega3": 0.02,
+      "sugar": 9.9,
+      "sodium": 1
+    },
+    "shelf_life_days": 6,
+    "recipe_frequency_per_1000": 112,
+    "estimated_cost_per_lb_usd": 1.65
+  },
+  {
+    "name": "avocado",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 2.0,
+      "fiber": 6.7,
+      "carb": 8.5,
+      "fat": 14.7,
+      "vitamin": 10.0,
+      "iron": 0.6,
+      "calcium": 12,
+      "omega3": 0.11,
+      "sugar": 0.7,
+      "sodium": 7
+    },
+    "shelf_life_days": 5,
+    "recipe_frequency_per_1000": 185,
+    "estimated_cost_per_lb_usd": 2.8
+  },
+  {
+    "name": "pomegranate",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 1.7,
+      "fiber": 4.0,
+      "carb": 18.7,
+      "fat": 1.2,
+      "vitamin": 10.2,
+      "iron": 0.3,
+      "calcium": 10,
+      "omega3": 0.01,
+      "sugar": 13.7,
+      "sodium": 3
+    },
+    "shelf_life_days": 30,
+    "recipe_frequency_per_1000": 32,
+    "estimated_cost_per_lb_usd": 3.99
+  },
+  {
+    "name": "melon",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.5,
+      "fiber": 0.8,
+      "carb": 9.1,
+      "fat": 0.1,
+      "vitamin": 18.0,
+      "iron": 0.1,
+      "calcium": 6,
+      "omega3": 0.0,
+      "sugar": 8.1,
+      "sodium": 9
+    },
+    "shelf_life_days": 10,
+    "recipe_frequency_per_1000": 45,
+    "estimated_cost_per_lb_usd": 0.95
+  },
+  {
+    "name": "cantaloupe",
+    "category": "fruit",
+    "nutrition": {
+      "protein": 0.8,
+      "fiber": 0.9,
+      "carb": 8.2,
+      "fat": 0.2,
+      "vitamin": 36.7,
+      "iron": 0.2,
+      "calcium": 9,
+      "omega3": 0.04,
+      "sugar": 7.9,
+      "sodium": 16
+    },
+    "shelf_life_days": 10,
+    "recipe_frequency_per_1000": 55,
+    "estimated_cost_per_lb_usd": 1.1
+  },
+  {
+    "name": "cabbage",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.3,
+      "fiber": 2.5,
+      "carb": 5.8,
+      "fat": 0.1,
+      "vitamin": 36.6,
+      "iron": 0.5,
+      "calcium": 40,
+      "omega3": 0.04,
+      "sugar": 3.2,
+      "sodium": 18
+    },
+    "shelf_life_days": 21,
+    "recipe_frequency_per_1000": 75,
+    "estimated_cost_per_lb_usd": 0.79
+  },
+  {
+    "name": "brussels sprout",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 3.4,
+      "fiber": 3.8,
+      "carb": 9.0,
+      "fat": 0.3,
+      "vitamin": 85.0,
+      "iron": 1.4,
+      "calcium": 42,
+      "omega3": 0.09,
+      "sugar": 2.2,
+      "sodium": 25
+    },
+    "shelf_life_days": 10,
+    "recipe_frequency_per_1000": 42,
+    "estimated_cost_per_lb_usd": 2.99
+  },
+  {
+    "name": "bok choy",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.5,
+      "fiber": 1.0,
+      "carb": 2.2,
+      "fat": 0.2,
+      "vitamin": 45.0,
+      "iron": 0.8,
+      "calcium": 105,
+      "omega3": 0.06,
+      "sugar": 1.2,
+      "sodium": 65
+    },
+    "shelf_life_days": 5,
+    "recipe_frequency_per_1000": 38,
+    "estimated_cost_per_lb_usd": 1.89
+  },
+  {
+    "name": "garlic",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 6.4,
+      "fiber": 2.1,
+      "carb": 33.1,
+      "fat": 0.5,
+      "vitamin": 31.2,
+      "iron": 1.7,
+      "calcium": 181,
+      "omega3": 0.0,
+      "sugar": 1.0,
+      "sodium": 17
+    },
+    "shelf_life_days": 150,
+    "recipe_frequency_per_1000": 640,
+    "estimated_cost_per_lb_usd": 3.2
+  },
+  {
+    "name": "leek",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.5,
+      "fiber": 1.8,
+      "carb": 14.2,
+      "fat": 0.3,
+      "vitamin": 12.0,
+      "iron": 2.1,
+      "calcium": 59,
+      "omega3": 0.01,
+      "sugar": 3.9,
+      "sodium": 20
+    },
+    "shelf_life_days": 14,
+    "recipe_frequency_per_1000": 55,
+    "estimated_cost_per_lb_usd": 2.49
+  },
+  {
+    "name": "potato",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 2.0,
+      "fiber": 2.2,
+      "carb": 17.5,
+      "fat": 0.1,
+      "vitamin": 19.7,
+      "iron": 0.8,
+      "calcium": 12,
+      "omega3": 0.01,
+      "sugar": 0.8,
+      "sodium": 6
+    },
+    "shelf_life_days": 60,
+    "recipe_frequency_per_1000": 340,
+    "estimated_cost_per_lb_usd": 0.85
+  },
+  {
+    "name": "sweet potato",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.6,
+      "fiber": 3.0,
+      "carb": 20.1,
+      "fat": 0.1,
+      "vitamin": 2.4,
+      "iron": 0.6,
+      "calcium": 30,
+      "omega3": 0.01,
+      "sugar": 4.2,
+      "sodium": 55
+    },
+    "shelf_life_days": 28,
+    "recipe_frequency_per_1000": 115,
+    "estimated_cost_per_lb_usd": 1.25
+  },
+  {
+    "name": "beetroot",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.6,
+      "fiber": 2.8,
+      "carb": 9.6,
+      "fat": 0.2,
+      "vitamin": 4.9,
+      "iron": 0.8,
+      "calcium": 16,
+      "omega3": 0.0,
+      "sugar": 6.8,
+      "sodium": 78
+    },
+    "shelf_life_days": 21,
+    "recipe_frequency_per_1000": 48,
+    "estimated_cost_per_lb_usd": 1.49
+  },
+  {
+    "name": "radish",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 0.7,
+      "fiber": 1.6,
+      "carb": 3.4,
+      "fat": 0.1,
+      "vitamin": 14.8,
+      "iron": 0.3,
+      "calcium": 25,
+      "omega3": 0.0,
+      "sugar": 1.9,
+      "sodium": 39
+    },
+    "shelf_life_days": 14,
+    "recipe_frequency_per_1000": 32,
+    "estimated_cost_per_lb_usd": 1.1
+  },
+  {
+    "name": "bell pepper",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 0.9,
+      "fiber": 1.7,
+      "carb": 4.6,
+      "fat": 0.2,
+      "vitamin": 80.4,
+      "iron": 0.4,
+      "calcium": 10,
+      "omega3": 0.01,
+      "sugar": 2.4,
+      "sodium": 3
+    },
+    "shelf_life_days": 10,
+    "recipe_frequency_per_1000": 260,
+    "estimated_cost_per_lb_usd": 2.29
+  },
+  {
+    "name": "zucchini",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.2,
+      "fiber": 1.0,
+      "carb": 3.1,
+      "fat": 0.3,
+      "vitamin": 17.9,
+      "iron": 0.4,
+      "calcium": 16,
+      "omega3": 0.01,
+      "sugar": 2.5,
+      "sodium": 8
+    },
+    "shelf_life_days": 7,
+    "recipe_frequency_per_1000": 135,
+    "estimated_cost_per_lb_usd": 1.6
+  },
+  {
+    "name": "eggplant",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 1.0,
+      "fiber": 3.0,
+      "carb": 5.9,
+      "fat": 0.2,
+      "vitamin": 2.2,
+      "iron": 0.2,
+      "calcium": 9,
+      "omega3": 0.01,
+      "sugar": 3.5,
+      "sodium": 2
+    },
+    "shelf_life_days": 7,
+    "recipe_frequency_per_1000": 78,
+    "estimated_cost_per_lb_usd": 1.99
+  },
+  {
+    "name": "green pea",
+    "category": "vegetable",
+    "nutrition": {
+      "protein": 5.4,
+      "fiber": 5.1,
+      "carb": 14.5,
+      "fat": 0.4,
+      "vitamin": 40.0,
+      "iron": 1.5,
+      "calcium": 25,
+      "omega3": 0.04,
+      "sugar": 5.7,
+      "sodium": 5
+    },
+    "shelf_life_days": 5,
+    "recipe_frequency_per_1000": 105,
+    "estimated_cost_per_lb_usd": 1.45
   }
 ]

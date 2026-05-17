@@ -1,9 +1,19 @@
 import os
 from ollama import Client
 
-OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 
+# =========================================
+# Ollama Client
+# =========================================
+
+OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 client = Client(host=f"{OLLAMA_HOST}:11434")
+
+
+# =========================================
+# AI Model: Gemma 4:e2b
+# =========================================
+
 AI_MODEL = "gemma4:e2b"
 
 

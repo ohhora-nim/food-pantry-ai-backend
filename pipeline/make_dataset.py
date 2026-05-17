@@ -146,7 +146,7 @@ def read_data():
             "name": name,
             "category": f["category"],
             "processing_level": "fresh",
-            "nutrition_tags": [k for k, v in f["nutrition"].items()],
+            "nutrition_tags": [k for k, v in f["nutrition"].items() if v > 0],
             "nutrition_score": nutri_score,
             "versatility_score": versatility,
             "waste_risk": waste_risk,
